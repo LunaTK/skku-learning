@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# 성균공부방 개발자 기초 스킬
 
-You can use the [editor on GitHub](https://github.com/LunaTK/skku-learning/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 1차시 - 2021.01.08
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qIkuqkZWdeI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Markdown
+[강의 교안 다운로드](/res/1차시.pdf)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LunaTK/skku-learning/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- 강의 소개
+- 리눅스 소개, 배워야 하는 이유
+- 쉘과 터미널
+- VirtualBox에 Ubuntu 설치하기
+- 쉘 기초 커맨드
