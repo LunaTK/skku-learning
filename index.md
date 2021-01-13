@@ -19,8 +19,24 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TfYlTCASJRs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 패키지 관리자 : `apt`
+```bash
+# 설치할 수 있는 패키지 목록 업데이트
+$ sudo apt update
+# vim 설치
+$ sudo apt install vim -y
+```
 - 명령어 설명서 : `man`, [tldr](https://github.com/tldr-pages/tldr)
+```bash
+# ssh 명령어 메뉴얼
+$ man ssh
+# scp 명령어 사용 예제
+$ tldr scp
+```
 - 쉘 원격 접속 : `ssh`, `sftp`, `scp`
+```bash
+# ipaddress 주소의 머신에 8822포로 user 계정 로그인
+$ ssh -p 8822 user@ipaddress
+```
   - VirtualBox에 `ssh` 접속
   - sftp GUI 도구 : [FileZila](https://m.blog.naver.com/myrikason/221802491577), [WinSCP](https://codedosa.com/1050)
 - 터미널 명령어 기록 검색 : ctrl-r
