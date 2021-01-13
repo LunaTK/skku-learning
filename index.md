@@ -16,4 +16,15 @@
 
 ## 2차시 - 2021.01.13
 
-[.vimrc](/res/vimrc.txt)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TfYlTCASJRs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- 패키지 관리자 : `apt`
+- 명령어 설명서 : `man`, [tldr](https://github.com/tldr-pages/tldr)
+- 쉘 원격 접속 : `ssh`, `sftp`, `scp`
+  - VirtualBox에 `ssh` 접속
+  - sftp GUI 도구 : [FileZila](https://m.blog.naver.com/myrikason/221802491577), [WinSCP](https://codedosa.com/1050)
+- 터미널 명령어 기록 검색 : ctrl-r
+- 터미널 텍스트 에디터 : `vim`
+  - [vim 단축키](https://gmlwjd9405.github.io/2019/05/14/vim-shortkey.html)
+  - [vim 에디터 이쁘게 사용하기](https://medium.com/sunhyoups-story/vim-에디터-이쁘게-사용하기-5b6b8d546017)
+  - [.vimrc](/res/vimrc.txt)
