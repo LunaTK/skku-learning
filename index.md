@@ -82,8 +82,12 @@ $ ssh -p 8822 user@ipaddress
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ztl5oB_FD-0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 쉘 스크립트
+### 쉘 스크립트 작성하기
+
+[쉘 스크립트 참고자료](https://w51014.tistory.com/1)
+
 - 변수
+- `#!` : 사용할 인터프리터 지정
 - 치환
   - "$val" : $val 부분을 해당 변수로 치환
   - "${val}ue" : 어느부분까지가 변수를 나타내는지 범위 지정 (`{ }`)
