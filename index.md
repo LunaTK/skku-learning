@@ -104,5 +104,6 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
 - while
 - 함수 선언
 - 쉘 스크립트 예제
+  - [수업 예제](https://github.com/LunaTK/skku-learning/tree/gh-pages/res/shell-script)
   - [Homebrew 설치 스크립트](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
   - [소프트웨어학과 공지 모니터링](https://lunatk.github.io/2020/09/20/20200920-web-monitoring-in-shellscript/)
