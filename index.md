@@ -44,3 +44,59 @@ $ ssh -p 8822 user@ipaddress
   - [vim 단축키](https://gmlwjd9405.github.io/2019/05/14/vim-shortkey.html)
   - [vim 에디터 이쁘게 사용하기](https://medium.com/sunhyoups-story/vim-에디터-이쁘게-사용하기-5b6b8d546017)
   - [.vimrc](/res/vimrc.txt)
+
+## 3차시 - 2021.01.15
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hbENe_YAqHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 기초 커맨드
+
+- `echo` : 전달받은 인자를 그대로 출력
+- `cat` : 파일 내용 출력
+- `grep` : 파일에서 내용 검색
+  - 정규 표현식 (Regular Expression)
+- `find` : 이름으로 파일 찾기
+- 파이프(`|`)와 리다이렉션 (`>`, `<`)
+
+### 데이터에서 원하는 부분 추출하기
+- `wc` : 파일 내 줄, 단어, 글자 수 출력
+- `head` : 앞에서 n 줄 출력
+- `tail` : 뒤에서 n 줄 출력
+- `cut` : 각 줄을 delimeter로 잘라서 특정 필드 출력
+- `sort` : 정렬
+- `sed` (**s**tream **ed**itor) : 한줄씩 원하는 편집 작업 (치환, 삭제 등) 수행
+- `awk` : sed와 비슷하지만 훨씬 더 많은 기능을 수행 가능
+  - 내부적으로 자체 스크립팅 언어 사용
+  - [https://recipes4dev.tistory.com/171](https://recipes4dev.tistory.com/171)
+  ```bash
+  $ awk 'length($0) > 10 { print $3, $4, $5} ' ./file.txt
+
+  $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finished"}' file.txt
+  ```
+
+### 네트워크에서 데이터 받아오기
+- `curl` : 커맨드라인에서 HTTP 요청 수행
+- `wget` : URL을 통한 파일 다운로드
+
+## 4차시 - 2021.01.20
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ztl5oB_FD-0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 쉘 스크립트
+- 변수
+- 치환
+  - "$val" : $val 부분을 해당 변수로 치환
+  - "${val}ue" : 어느부분까지가 변수를 나타내는지 범위 지정 (`{ }`)
+  - "$(ls)", \`ls\` : 프로그램 실행 출력결과로 치환
+- 비교
+  - test, [ ]
+    - 띄어쓰기 중요
+  - [[ ]]
+  - (( val > 10 )) : 수치 비교
+- case
+- for
+- while
+- 함수 선언
+- 쉘 스크립트 예제
+  - [Homebrew 설치 스크립트](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+  - [소프트웨어학과 공지 모니터링](https://lunatk.github.io/2020/09/20/20200920-web-monitoring-in-shellscript/)
