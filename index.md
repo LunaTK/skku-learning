@@ -65,14 +65,16 @@ $ ssh -p 8822 user@ipaddress
 - `cut` : 각 줄을 delimeter로 잘라서 특정 필드 출력
 - `sort` : 정렬
 - `sed` (**s**tream **ed**itor) : 한줄씩 원하는 편집 작업 (치환, 삭제 등) 수행
+  - [https://jhnyang.tistory.com/287](https://jhnyang.tistory.com/287)
 - `awk` : sed와 비슷하지만 훨씬 더 많은 기능을 수행 가능
   - 내부적으로 자체 스크립팅 언어 사용
   - [https://recipes4dev.tistory.com/171](https://recipes4dev.tistory.com/171)
-  ```bash
-  $ awk 'length($0) > 10 { print $3, $4, $5} ' ./file.txt
+  
+```bash
+$ awk 'length($0) > 10 { print $3, $4, $5} ' ./file.txt
 
-  $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finished"}' file.txt
-  ```
+$ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finished"}' file.txt
+```
 
 ### 네트워크에서 데이터 받아오기
 - `curl` : 커맨드라인에서 HTTP 요청 수행
