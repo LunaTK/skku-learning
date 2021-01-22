@@ -107,3 +107,26 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
   - [수업 예제](https://github.com/LunaTK/skku-learning/tree/gh-pages/res/shell-script)
   - [Homebrew 설치 스크립트](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
   - [소프트웨어학과 공지 모니터링](https://lunatk.github.io/2020/09/20/20200920-web-monitoring-in-shellscript/)
+
+## 5차시 - 2021.01.2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TE4AmVXjxC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- 시그널 : 프로그램에게 보내는 신호
+  - Ctrl-c : Interrupt, 프로세스 종료
+  - Ctrl-\ : Quit, 프로세스 종료
+  - Ctrl-d : EOF
+  - Ctrl-z : Stop, 일시 중지하고 백그라운드로 보내기
+  - `fg` : 일시 중지된 프로세스 앞으로 가져오기
+  - `bg` : 일시 중지된 프로세스 백그라운드에서 계속 실행
+  - `kill` : 인자로 넘겨준 프로세스 종료 또는 시그널 전달
+
+- `tmux` : Terminal Multiplexer
+- `alias` : 긴 명령어 축약버전 지정
+- `dotfile` : 설정파일 또는 기록파일
+  - `.zshrc`
+  - `.vimrc`
+- `ssh` tunneling
+  - local tunneling : `ssh -L 8000:localhost:80 ssh-host`
+  - remote tunneling : `ssh -R 8000:localhost:80 ssh-host`
+  - [참고](https://devbin.kr/ssh-tunneling-을-이용하여-port-forwarding을-해보자/)
