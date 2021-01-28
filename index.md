@@ -108,7 +108,7 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
   - [Homebrew 설치 스크립트](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
   - [소프트웨어학과 공지 모니터링](https://lunatk.github.io/2020/09/20/20200920-web-monitoring-in-shellscript/)
 
-## 5차시 - 2021.01.2
+## 5차시 - 2021.01.22
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TE4AmVXjxC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -130,3 +130,14 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
   - local tunneling : `ssh -L 8000:localhost:80 ssh-host`
   - remote tunneling : `ssh -R 8000:localhost:80 ssh-host`
   - [참고](https://devbin.kr/ssh-tunneling-을-이용하여-port-forwarding을-해보자/)
+
+## 6차시 - 2021.01.27
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4eSeHp1keNo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- Git과 Github
+  - add : commit에 반영할 파일을 stage에 올리는 명령어
+  - commit : 체크포인트 생성
+  - push : 원격 저장소에 커밋 업로드
+  - pull : 원격 저장소에서 커밋 받아오기
+    - git pull --rebase : Merge commit 안생기게 pull 받기
