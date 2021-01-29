@@ -141,3 +141,21 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
   - push : 원격 저장소에 커밋 업로드
   - pull : 원격 저장소에서 커밋 받아오기
     - git pull --rebase : Merge commit 안생기게 pull 받기
+
+## 7차시 - 2021.01.29
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dbp1Jzl230U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- CSV, XML, JSON
+- REST API
+  - [jsonbin.io](https://jsonbin.io) : JSON을 DB로 사용하며 REST API로 편집 기능을 제공하는 서비스
+  - `pip`
+    - python3 -m pip
+- jupyter notebook
+  - [Kaggle](https://www.kaggle.com) : 머신러닝 플랫폼
+  - [Google Colab](https://colab.research.google.com)
+  - 파이썬 뿐 아니라 다른 언어도 사용 가능
+- 학생 라이센스
+  - [Github Student Developer Pack](https://education.github.com/pack)
+- Visual Studio Code
+  - [remote-ssh 플러그인](https://evols-atirev.tistory.com/28)
