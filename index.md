@@ -166,6 +166,6 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QA82lbbYYa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- 소프트웨어학과 강의별 배우는 내용 ([보기](./lecture-content.html))
+- 소프트웨어학과 강의별 배우는 내용 ([보기](./lecture-contents.html))
 - 웹, 앱개발 간단 소개
 - 기타 질의응답

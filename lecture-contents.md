@@ -44,8 +44,6 @@ title: 소프트웨어학과 강의별 배우는 내용
     - `int number;`
     - Regular Expression
 
-    ![%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%87%E1%85%A2%E1%84%8B%E1%85%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%AD%E1%86%BC%205cefab742f91420895369036f8204500/Untitled.png](%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%87%E1%85%A7%E1%86%AF%20%E1%84%87%E1%85%A2%E1%84%8B%E1%85%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%AD%E1%86%BC%205cefab742f91420895369036f8204500/Untitled.png)
-
 - 컴퓨터 구조개론 (하드웨어, OS가 어떻게 관리하는지)
     - 시스템 프로그램 비슷함
     - [https://aidanbae.github.io/code/devops/computer/cpucache/](https://aidanbae.github.io/code/devops/computer/cpucache/)
