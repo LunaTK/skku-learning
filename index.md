@@ -1,4 +1,6 @@
-# 성균공부방 개발자 기초 스킬
+---
+title: 성균공부방 개발자 기초 스킬
+---
 
 참고 강의 : [The Missing Semester of Your CS Education](https://missing.csail.mit.edu)
 
@@ -159,3 +161,11 @@ $ awk 'BEGIN { print "TITLE : Field value 1,2"} {print $1, $2} END {print "Finis
   - [Github Student Developer Pack](https://education.github.com/pack)
 - Visual Studio Code
   - [remote-ssh 플러그인](https://evols-atirev.tistory.com/28)
+
+## 8차시 - 2021.02.03
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QA82lbbYYa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- 소프트웨어학과 강의별 배우는 내용 ([보기](./lecture-content.html))
+- 웹, 앱개발 간단 소개
+- 기타 질의응답
